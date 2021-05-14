@@ -47,8 +47,8 @@ var smtpTransport  = nodemailer.createTransport({
     host: "smtp.gmail.com",
     auth: {
       type: "login", // default
-      user: "curemeet@gmail.com",
-      pass: "curemeet123"
+      user: "Add_Your_Email_Here",
+      pass: "Add_Your_passowrd_here"
     }
   });
 var rand,mailOptions,host,link;
